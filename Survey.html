@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = 'ko'>
+    <head>
+        <meta charset="utf-8">
+        <title>Wellbeing-Mate</title>
+        <link rel = "stylesheet" type = "text/css" href = "css/Survey_style.css">  
+    </head>
+    <body>
+        <div id = 'back'>
+            <h2 style='font-size: 40px'>←</h2>
+        </div>
+        <div style='position: absolute;left: 22%'>
+            <h2>개인정보 입력</h2>
+        </div>
+        <div>
+            <form class = 'form' name = 'frm' action = 'javascript:getFunction()' method = 'post'>
+               <div style='clear: both'>
+                <h3>이름</h3>
+                <input type = 'text' name='name' style="width:100%; text-align: center;" class = 'text' id='names'>
+                </div>
+                
+                <div style='float:left;margin-top:30px;'>
+                <h3>나이</h3>
+                <input type = 'number' name = 'age' style='text-align: center' class= 'text'>  세
+                </div>
+                
+                <div style='float:right;margin-right: 80px;margin-top:30px;'>
+                <h3>성별</h3>
+                <label><input type = 'radio' name = 'gender' value = 'male' checked>남</label>
+                <label><input type = 'radio' name = 'gender' value = 'female' style="margin-left: 50px">여</label>
+                </div>
+                
+                <div style='clear:both;float:left;margin-top:30px;'>
+                <h3>신장</h3>
+                <input type = 'number' name = 'height' style='text-align: center' class = 'text'>  cm
+                </div>
+                
+                <div style="float: right;margin-top:30px;">
+                <h3>체중</h3>
+                <input type = 'number' name = 'weight' style="text-align: center" class = 'text'>  kg
+                </div>
+                
+                <div style = 'clear:both;margin-top:280px;'>
+                <h3>활동정도</h3>
+                <div style = 'display: flex'>
+                <p style = 'font-size: 13px'>거의 없음</p><p style = 'position: absolute;left:48%; font-size:13px;'>보통</p><p style='position: absolute;left: 83%; font-size:13px;'>심한 육체활동</p>
+                </div>
+                <input type = 'range' name = 'action' min = '0' max = '100' step = '10' style="width:100%;" id = 'ran'>
+                </div>
+                <div>
+                    <input type = 'submit' onclick = 'return Checkfun()' value = '확인' class = 'check'>
+                </div>
+            </form>
+        </div>
+    <script type = "text/javascript" src = "js/Survey_script.js"></script>
+    </body>
+</html>

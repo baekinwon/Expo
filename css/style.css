@@ -1,0 +1,93 @@
+@font-face{
+    font-family: 'OleoScript';
+    src: url('../fonts/OleoScript-Regular.ttf')
+}
+
+
+.splash{
+    cursor: pointer;
+    position:fixed;
+    top:50%;
+    left:50%;
+    height:100%;
+    width:100%;
+    transform: translate(-50%,-50%);
+    background-color:rgb(48,94,58);
+    transition: all ease-in-out 600ms;
+}
+
+.hidden{
+  transition : 0.5s;
+  display : none;
+}
+
+
+.btn{
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo{
+    background-color: rgb(239,235,65);
+    position: absolute;
+    left:50%;
+    top:60%;
+    transform: translate(-50%,-60%);
+    border-radius: 70px;
+    padding-top:130px;
+    padding-bottom:130px;
+    padding-right: 130px;
+    padding-left: 130px;
+    background-image: url('../image/image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    color: white;
+    position:absolute;
+    left:50%;
+    top:6%;
+    font-size: 50px;
+    transform: translate(-50%,1%);
+    font-family: 'OleoScript'
+}
+
+#logo_img{
+    display: block;
+    width:100%;
+    height: auto;
+}
+/*   =======================================================================    */
+
+.start{
+    cursor: pointer;
+    background-color: rgb(48,94,58);
+    position: absolute;
+    left:50%;
+    top:55%;
+    transform: translate(-50%,-55%);
+    padding-top:30px;
+    padding-bottom:50px;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-radius: 50%;
+    font-family: 'OleoScript';
+    text-align: center;
+}
+
+#under{
+    position: absolute;
+    left:33%;
+    top:75%;
+    font-size:30px;
+}
+
+#know{
+    position: absolute;
+    left:47%;
+    top:90%;
+    font-size:15px;
+    color:gray;
+}
