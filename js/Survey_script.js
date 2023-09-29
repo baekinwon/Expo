@@ -29,6 +29,17 @@ function Checkfun(){
 }
 
 function getFunction(){
+    var gend = '';
     var names = document.getElementById('names').value;
-    location.href = 'main.html?'+names;
+    var ages = document.getElementById('ages').value;
+    var genders = document.getElementsByName('gender');
+    genders.forEach(elem => {
+        if(elem.checked){
+            gend = elem.value;
+        }
+    });
+    var heights = document.getElementById('heights').value;
+    var weights = document.getElementById('weights').value;
+    var ran = document.getElementById('ran').value;
+    location.href = 'main.html?'+names+'?'+ages+'?'+gend+'?'+heights+'?'+weights+'?'+ran;
 }

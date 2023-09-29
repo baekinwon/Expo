@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang = 'ko'>
-    <head>
-        <title>Wellbeing-Mate</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <h1> 데이터 전달 받는 거 까지 함 남은 페이지: 스플래쉬 이미지, 메인 화면, 음식 화면</h1>
-        <script type = "text/javascript" src = "js/main_script.js"></script>
-    </body>
+<html lang='ko'>
+
+<head>
+    <title>Wellbeing-Mate</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/main_style.css">
+</head>
+
+<body>
+    <div>
+        <h2 id='kcal'></h2>
+    </div>
+    <div>
+        <div id='image1'></div>
+        <div id='image2'></div>
+        <div id='image3'></div>
+        <div class='checkbox' id='check1'></div>
+        <div class='checkbox' id='check2' style='margin-left:255px;'></div>
+        <div class='checkbox' id='check3' style='margin-left: 510px;'></div>
+    </div>
+    <div id='mo' class='eat'>713 kcal</div>
+    <div id='af' class='eat' style="margin-left: 255px;">713 kcal</div>
+    <div id='di' class='eat' style='margin-left:510px;'>713 kcal</div>
+    </div>
+    <div class='info'>
+    </div>
+    <div id='info_kcal'></div>
+
+    <div class="progress-bar">
+        <progress value="2400" min="0" max="0" style="visibility:hidden;height:0;width:0;"></progress>
+    </div>
+    <progress value = "50" max = "200" id = "barp"></progress>
+    <progress value = "30" max = "200" id = 'bp2'></progress>
+    <progress value = "50" max = "200" id = 'bp3'></progress>
+    <progress value = "60" max = "200" id = 'bp4'></progress>
+    <progress value = "70" max = "200" id = 'bp5'></progress>
+    <h3 class = 'names'>탄수화물</h3>
+    <h3 class = 'names' style = 'margin-top:45px;'>단백질</h3>
+    <h3 class = 'names' style = 'margin-top:75px;'>지방</h3>
+    <h3 class = 'names' style = 'margin-top:105px;'>당류</h3>
+    <h3 class = 'names' style = 'margin-top:135px;'>나트륨</h3>
+    <div class="splash">
+        <div id='cont'>
+            <pre id='string'></pre>
+        </div>
+        <div id='img'>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main_script.js"></script>
+</body>
+
 </html>
