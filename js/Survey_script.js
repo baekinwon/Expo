@@ -41,5 +41,5 @@ function getFunction(){
     var heights = document.getElementById('heights').value;
     var weights = document.getElementById('weights').value;
     var ran = document.getElementById('ran').value;
-    location.href = 'main.html?'+names+'?'+ages+'?'+gend+'?'+heights+'?'+weights+'?'+ran;
+    location.href = 'main.html?'+names+'?'+ages+'?'+gend+'?'+heights+'?'+weights+'?'+ran+'?';
 }
