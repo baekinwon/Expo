@@ -16,12 +16,13 @@ html, body{
 .form{
     position: absolute;
     left:28%;
-    width:500px;
+    width:1000px;
     height: 100%;
     margin: auto;
     padding-top: 80px;
     top:1%;
     font-weight: bold;
+    font-size: 25px;
 }
 
 input{
@@ -31,15 +32,15 @@ input{
 .check{
     cursor:pointer;
     position: absolute;
-    left:120%;
+    left:105%;
     top:18%;
     background-color: rgb(48,94,58);
     color:white;
     border-radius: 50%;
-    padding-top:40px;
-    padding-bottom:40px;
-    padding-right: 35px;
-    padding-left: 35px;
+    padding-top:60px;
+    padding-bottom:60px;
+    padding-right: 55px;
+    padding-left: 55px;
     text-align: center;
     font-size: 30px;
     border-style: none;
@@ -51,6 +52,7 @@ input{
     border-top:0px;
     border-right:0px;
     border-left: 0px;
+    font-size: 30px;
 }
 
 .text:focus{

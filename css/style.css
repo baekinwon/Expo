@@ -45,10 +45,10 @@ html,
     top:60%;
     transform: translate(-50%,-60%);
     border-radius: 70px;
-    padding-top:130px;
-    padding-bottom:130px;
-    padding-right: 130px;
-    padding-left: 130px;
+    padding-top:200px;
+    padding-bottom:200px;
+    padding-right: 200px;
+    padding-left: 200px;
     background-image: url('../image/image.png');
     background-size: cover;
     background-position: center;
@@ -58,8 +58,8 @@ html,
     color: white;
     position:absolute;
     left:50%;
-    top:0%;
-    font-size: 50px;
+    top:10%;
+    font-size: 80px;
     transform: translate(-50%,1%);
     font-family: 'OleoScript'
 }
@@ -76,12 +76,12 @@ html,
     background-color: rgb(48,94,58);
     position: absolute;
     left:50%;
-    top:48%;
+    top:50%;
     transform: translate(-50%,-55%);
-    padding-top:30px;
-    padding-bottom:50px;
-    padding-right: 70px;
-    padding-left: 70px;
+    padding-top:60px;
+    padding-bottom:80px;
+    padding-right: 100px;
+    padding-left: 100px;
     border-radius: 50%;
     font-family: 'OleoScript';
     text-align: center;
@@ -89,15 +89,15 @@ html,
 
 #under{
     position: absolute;
-    left:33%;
+    left:39%;
     top:70%;
     font-size:30px;
 }
 
 #know{
     position: absolute;
-    left:47%;
-    top:85%;
+    left:49%;
+    top:80%;
     font-size:15px;
     color:gray;
 }

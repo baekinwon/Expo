@@ -69,6 +69,7 @@
 #kcal {
     font-weight: bold;
     position: absolute;
+    font-size:38px;
     top:-2%;
     left:3%;
 }
@@ -78,10 +79,10 @@
     left: 30%;
     top: 16%;
     transform: translate(-49%, -70%);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 80px;
+    padding-left: 80px;
     background-image: url('../image/main_image1.png');
     background-size: cover;
     background-position: center;
@@ -90,12 +91,12 @@
 #image2 {
     position: absolute;
     left: 50%;
-    top: 16%;
+    top: 15.5%;
     transform: translate(-49%, -70%);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 70px;
+    padding-left: 70px;
     background-image: url('../image/main_image2.png');
     background-size: cover;
     background-position: center;
@@ -106,10 +107,10 @@
     left: 70%;
     top: 16%;
     transform: translate(-49%, -70%);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 70px;
+    padding-left: 70px;
     background-image: url('../image/main_image3.png');
     background-size: cover;
     background-position: center;
@@ -134,6 +135,11 @@
     background-position: center;
     background-size: cover;
     top:20%;
+    left:25%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #check2 {
@@ -141,6 +147,12 @@
     background-position: center;
     background-size: cover;
     top:20%;
+    left:31.5%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
 }
 
 #check3 {
@@ -148,38 +160,45 @@
     background-position: center;
     background-size: cover;
     top:20%;
+    left:38%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .eat {
     position: absolute;
+    font-size: 25px;
     top: 40%;
     left: 28%;
 }
 
 .info {
     position: absolute;
-    top: 57%;
+    top: 54%;
     left: 15%;
     background: black;
-    padding-top: 120px;
-    padding-bottom: 125px;
-    padding-right: 660px;
-    padding-left: 250px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    padding-right: 700px;
+    padding-left: 700px;
     border-radius: 60px;
 }
 
 #info_kcal {
     position: absolute;
-    top: 60%;
-    left: 40%;
+    top: 56%;
+    left: 37%;
     background-color: white;
     border-radius: 50px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 150px;
+    padding-left: 150px;
     font-weight: bold;
-    font-family: 'Rockwell'
+    font-family: 'Rockwell';
+    font-size: 25px;
 }
 
 /* circle progress bar */
@@ -193,13 +212,13 @@
 .progress-bar {
   display: flex;
   position: absolute;
-  top:65%;
-  left:25%;
+  top:61%;
+  left:27%;
   justify-content: center;
   align-items: center;
 
-  width: 170px;
-  height: 170px;
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
   background: 
     radial-gradient(closest-side, black 60%, transparent 61% 100%),
@@ -218,10 +237,10 @@
 
 #barp{
     position: absolute;
-    top:69%;
-    left:47%;
-    height: 10px;
-    width:400px;
+    top:64%;
+    left:52%;
+    height: 20px;
+    width:580px;
     appearance:none;
 }
 
@@ -238,10 +257,10 @@
 #bp2{
     appearance:none;
     position: absolute;
-    top:69%;
-    left:47%;
-    height: 10px;
-    width:400px;
+    top:64.5%;
+    left:52%;
+    height: 20px;
+    width:580px;
     margin-top:30px;
 }
 #bp2::-webkit-progress-bar{
@@ -257,10 +276,10 @@
 #bp3{
     appearance:none;
     position: absolute;
-    top:69%;
-    left:47%;
-    height: 10px;
-    width:400px;
+    top:65%;
+    left:52%;
+    height: 20px;
+    width:580px;
     margin-top:60px;
 }
 #bp3::-webkit-progress-bar{
@@ -276,10 +295,10 @@
 #bp4{
     appearance:none;
     position: absolute;
-    top:69%;
-    left:47%;
-    height: 10px;
-    width:400px;
+    top:66%;
+    left:52%;
+    height: 20px;
+    width:580px;
     margin-top:90px;
 }
 #bp4::-webkit-progress-bar{
@@ -295,10 +314,10 @@
 #bp5{
     appearance:none;
     position: absolute;
-    top:69%;
-    left:47%;
-    height: 10px;
-    width:400px;
+    top:67%;
+    left:52%;
+    height: 20px;
+    width:580px;
     margin-top:120px;
 }
 #bp5::-webkit-progress-bar{
@@ -313,13 +332,13 @@
 
 .names{
     position: absolute;
-    top:48.5%;
-    left:33.5%;
+    top:50%;
+    left:40%;
     padding-top: 100px;
     padding-bottom: 100px;
     padding-right: 100px;
     padding-left: 100px;
-    font-size:14px;
+    font-size:25px;
     color:white;
 }
 
@@ -452,9 +471,9 @@ li:nth-child(5)::marker{
     position: absolute;
     right:1%;
     top:1%;
-    font-size:15px;
+    font-size:30px;
     background-color: rgb(48,94,58);
     color:white;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
 }
