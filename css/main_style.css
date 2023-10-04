@@ -389,7 +389,7 @@
 .hed{
     position: absolute;
     top:3%;
-    left:38%;
+    left:39%;
     font-weight: bold;
     font-size: 40px;
     
@@ -409,24 +409,24 @@
 
 .im{
     position: absolute;
-    top:-4%;
-    left:17%;
+    top:2%;
+    left:20%;
     background-image: url('../image/eat.png');
     background-position: center;
-    background-size: cover;
-    padding-top: 180px;
-    padding-bottom: 180px;
-    padding-left: 180px;
-    padding-right: 180px;
+    background-size: 200px 200px 130px 130px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 170px;
+    padding-right: 170px;
 }
 
 .h{
     position: fixed;
-    width:220px;
+    width:550px;
+    left: 37.3%;
     text-align: center;
     margin-top:240px;
-    margin-left: 130px;
-    font-size:30px;
+    font-size:33px;
 }
 
 .u{

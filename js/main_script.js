@@ -1,7 +1,6 @@
-var returnHome=document.querySelector('#return');
-returnHome.addEventListener('click',()=>
-                            {
-    location.href= '../index.html'
+var returnHome = document.querySelector('#return');
+returnHome.addEventListener('click', () => {
+    location.href = '../index.html'
 })
 
 const names = location.href.split('?')[1]; // 이름
@@ -36,6 +35,16 @@ var ranna = new Array(3);
 
 const dfs = dfd.read_csv('../data/condition_1.csv')
     .then(df => {
+        for (var i = 0; i < 3; i++) {
+            while (true) {
+                rand[i] = Math.floor(Math.random() * 200) + 1;
+                if (df.loc({columns: ['식품이름', '열량(kcal)', '탄수화물(g)', '단백질(g)', '지방(g)', '당류(g)', '나트륨(mg)'],rows: [rand[i]]})['열량(kcal)'].values[0] > (ka / 4)){
+                    break;
+                }
+            }
+
+        }
+
         for (var i = 0; i < 3; i++) {
             ranname[i] = df.loc({
                 columns: ['식품이름', '열량(kcal)', '탄수화물(g)', '단백질(g)', '지방(g)', '당류(g)', '나트륨(mg)'],
@@ -102,7 +111,7 @@ const dfs = dfd.read_csv('../data/condition_1.csv')
                 plusdan += randan[this.parentNode.parentNode.parentNode.getAttribute('id')[9] - 1];
                 plusna += ranna[this.parentNode.parentNode.parentNode.getAttribute('id')[9] - 1];
                 eatkcal += pluskc;
-                
+
                 console.log(eatkcal);
 
                 /* ============================== */
@@ -134,7 +143,7 @@ const dfs = dfd.read_csv('../data/condition_1.csv')
 
                 document.getElementById('bp5').max = '2000';
                 document.getElementById('bp5').value = plusna; // 나트륨 (mg)
-                
+
                 // 아래 value값만 바꿔주면 됨
 
                 /* ============================== */
