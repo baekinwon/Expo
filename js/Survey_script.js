@@ -1,7 +1,7 @@
 var backbutton = document.querySelector('#back');
 backbutton.addEventListener('click',()=>
                            {
-    location.href = 'well_mate.html'
+    location.href = 'index.html'
 })
 
 function Checkfun(){

@@ -2,7 +2,17 @@
     font-family: 'OleoScript';
     src: url('../fonts/OleoScript-Regular.ttf')
 }
-
+html,
+      body {
+        width: 100%;
+        height: 100%;
+           overflow: hidden; 
+      }
+      #src {
+        width: 100%;
+        height: 100%;
+        padding-top: 56.25%; 
+      }
 
 .splash{
     cursor: pointer;
@@ -48,7 +58,7 @@
     color: white;
     position:absolute;
     left:50%;
-    top:6%;
+    top:0%;
     font-size: 50px;
     transform: translate(-50%,1%);
     font-family: 'OleoScript'
@@ -66,7 +76,7 @@
     background-color: rgb(48,94,58);
     position: absolute;
     left:50%;
-    top:55%;
+    top:48%;
     transform: translate(-50%,-55%);
     padding-top:30px;
     padding-bottom:50px;
@@ -80,14 +90,14 @@
 #under{
     position: absolute;
     left:33%;
-    top:75%;
+    top:70%;
     font-size:30px;
 }
 
 #know{
     position: absolute;
     left:47%;
-    top:90%;
+    top:85%;
     font-size:15px;
     color:gray;
 }

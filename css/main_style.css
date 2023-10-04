@@ -3,6 +3,19 @@
     src: url('../fonts/Rockwell-ExtraBold.otf');
 }
 
+ body {
+        width: 100%;
+        height: 100%;
+     overflow: hidden; 
+      }
+  #src {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      padding-top: 56.25%; 
+      }
+
+
 .splash {
     background-color: white;
     cursor: pointer;
@@ -55,14 +68,15 @@
 
 #kcal {
     font-weight: bold;
-    margin-left: 30px;
-    margin-top: 15px;
+    position: absolute;
+    top:-2%;
+    left:3%;
 }
 
 #image1 {
     position: absolute;
     left: 30%;
-    top: 20%;
+    top: 16%;
     transform: translate(-49%, -70%);
     padding-top: 50px;
     padding-bottom: 50px;
@@ -76,7 +90,7 @@
 #image2 {
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 16%;
     transform: translate(-49%, -70%);
     padding-top: 40px;
     padding-bottom: 40px;
@@ -90,7 +104,7 @@
 #image3 {
     position: absolute;
     left: 70%;
-    top: 20%;
+    top: 16%;
     transform: translate(-49%, -70%);
     padding-top: 40px;
     padding-bottom: 40px;
@@ -119,23 +133,26 @@
     background-image: url('../image/plus.png');
     background-position: center;
     background-size: cover;
+    top:20%;
 }
 
 #check2 {
     background-image: url('../image/plus.png');
     background-position: center;
     background-size: cover;
+    top:20%;
 }
 
 #check3 {
     background-image: url('../image/plus.png');
     background-position: center;
     background-size: cover;
+    top:20%;
 }
 
 .eat {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 28%;
 }
 
@@ -201,7 +218,7 @@
 
 #barp{
     position: absolute;
-    top:68%;
+    top:69%;
     left:47%;
     height: 10px;
     width:400px;
@@ -221,7 +238,7 @@
 #bp2{
     appearance:none;
     position: absolute;
-    top:68%;
+    top:69%;
     left:47%;
     height: 10px;
     width:400px;
@@ -240,7 +257,7 @@
 #bp3{
     appearance:none;
     position: absolute;
-    top:68%;
+    top:69%;
     left:47%;
     height: 10px;
     width:400px;
@@ -259,7 +276,7 @@
 #bp4{
     appearance:none;
     position: absolute;
-    top:68%;
+    top:69%;
     left:47%;
     height: 10px;
     width:400px;
@@ -278,7 +295,7 @@
 #bp5{
     appearance:none;
     position: absolute;
-    top:68%;
+    top:69%;
     left:47%;
     height: 10px;
     width:400px;
